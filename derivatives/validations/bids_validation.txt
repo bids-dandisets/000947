@@ -1,0 +1,261 @@
+	[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.
+		SourceDatasets
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include `"URL"`, `"DOI"` (see
+[URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)), and
+`"Version"` with
+[string](https://www.w3schools.com/js/js_json_datatypes.asp)
+values.
+
+
+	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.
+		StimulusPresentation
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+
+		375 more files with the same issue
+
+		InstitutionAddress
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: The address of the institution in charge of the equipment that produced the
+measurements.
+
+
+		376 more files with the same issue
+
+		InstitutionalDepartmentName
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: The department in the institution in charge of the equipment that produced
+the measurements.
+
+
+		376 more files with the same issue
+
+		ManufacturersModelName
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Manufacturer's model name of the equipment that produced the measurements.
+
+
+		376 more files with the same issue
+
+		ManufacturersModelVersion
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Manufacturer's model version of the equipment that produced the measurements.
+
+
+		376 more files with the same issue
+
+		RecordingSetupName
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Custom name of the recording setup.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Custom name of the recording setup.
+
+
+		376 more files with the same issue
+
+		DeviceSerialNumber
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: The serial number of the equipment that produced the measurements.
+A pseudonym can also be used to prevent the equipment from being
+identifiable, so long as each pseudonym is unique within the dataset.
+
+
+		376 more files with the same issue
+
+		SoftwareName
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Name of the software that was used to present the stimuli.
+
+
+		376 more files with the same issue
+
+		SoftwareVersions
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Manufacturer's designation of software version of the equipment that produced
+the measurements.
+
+
+		376 more files with the same issue
+
+		RecordingType
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+
+		376 more files with the same issue
+
+		PharmaceuticalName
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Name of pharmaceutical.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Name of pharmaceutical.
+
+
+		376 more files with the same issue
+
+		PharmaceuticalDoseAmount
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Dose amount of administered pharmaceutical.
+
+
+		376 more files with the same issue
+
+		PharmaceuticalDoseUnits
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Unit format relating to pharmaceutical dose
+(for example, `"mg"` or `"mg/kg"`).
+
+
+		376 more files with the same issue
+
+		PharmaceuticalDoseRegimen
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Details of the pharmaceutical dose regimen.
+Either adequate description or short-code relating to regimen documented
+elsewhere (for example, `"single oral bolus"`).
+
+
+		376 more files with the same issue
+
+		PharmaceuticalDoseTime
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Time of administration of pharmaceutical dose, relative to time zero.
+For an infusion, this should be a vector with two elements specifying the
+start and end of the infusion period. For more complex dose regimens,
+the regimen description should be complete enough to enable unambiguous
+interpretation of `"PharmaceuticalDoseTime"`.
+Unit format of the specified pharmaceutical dose time MUST be seconds.
+
+
+		376 more files with the same issue
+
+		SampleEnvironment
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Environment in which the sample was imaged. MUST be one of: `"in vivo"`, `"ex vivo"`
+or `"in vitro"`.
+
+
+		376 more files with the same issue
+
+		TaskName
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Name of the task.
+No two tasks should have the same name.
+The task label included in the filename MAY be derived from this `"TaskName"` field
+by removing all non-alphanumeric or `+` characters (that is, all except those matching `[0-9a-zA-Z+]`),
+and potentially replacing spaces with `+` to ease readability.
+For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond to task labels
+`faces+n+back` or `facesnback` and `head+nodding` or `headnodding`, respectively.
+
+
+		376 more files with the same issue
+
+		TaskDescription
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Longer description of the task.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Longer description of the task.
+
+
+		376 more files with the same issue
+
+		Instructions
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: Text of the instructions given to participants before the recording.
+
+
+		376 more files with the same issue
+
+		CogAtlasID
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
+Task term.
+
+
+		376 more files with the same issue
+
+		CogPOID
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+of the corresponding [CogPO](http://www.cogpo.org/) term.
+
+
+		376 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] TSV_COLUMN_TYPE_REDEFINED A column required in a TSV file has been redefined in a sidecar file. This redefinition is being ignored.
+		x
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_electrodes.json - Format "string" must be number
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_electrodes.json - Format "string" must be number
+
+		376 more files with the same issue
+
+		y
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_electrodes.json - Format "string" must be number
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_electrodes.json - Format "string" must be number
+
+		376 more files with the same issue
+
+		impedance
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_electrodes.json - Format "string" must be number
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_electrodes.json - Format "string" must be number
+
+		376 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=TSV_COLUMN_TYPE_REDEFINED for existing conversations about this issue.
+
+
+          Summary:                           Available Tasks:        Available Modalities:
+          3785 Files, 8.98 MB                                        microephys           
+          2 - Subjects 378 - Sessions                                                     
+
