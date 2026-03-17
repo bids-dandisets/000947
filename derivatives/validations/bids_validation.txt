@@ -2,7 +2,7 @@
 		SourceDatasets
 		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
 Valid keys in each object include `"URL"`, `"DOI"` (see
-[URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)), and
+[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and
 `"Version"` with
 [string](https://www.w3schools.com/js/js_json_datatypes.asp)
 values.
@@ -210,11 +210,11 @@ For example `"TaskName"` `"faces n-back"` or `"head nodding"` could correspond t
 		376 more files with the same issue
 
 		CogAtlasID
-		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
 Task term.
 
-		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [Cognitive Atlas](https://www.cognitiveatlas.org/)
 Task term.
 
@@ -222,10 +222,10 @@ Task term.
 		376 more files with the same issue
 
 		CogPOID
-		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+		/sub-Isis/ses-pre+MPTP+I+160630+1/ecephys/sub-Isis_ses-pre+MPTP+I+160630+1_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [CogPO](http://www.cogpo.org/) term.
 
-		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: [URI](https://bids-specification.readthedocs.io/en/stable/common-principles.md#uniform-resource-indicator)
+		/sub-Isis/ses-pre+MPTP+I+170522+1/ecephys/sub-Isis_ses-pre+MPTP+I+170522+1_ecephys.nwb - Field description: [URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)
 of the corresponding [CogPO](http://www.cogpo.org/) term.
 
 
@@ -259,3 +259,4 @@ of the corresponding [CogPO](http://www.cogpo.org/) term.
           3785 Files, 8.98 MB                                        microephys           
           2 - Subjects 378 - Sessions                                                     
 
+	If you have any questions, please post on https://neurostars.org/tags/bids.
