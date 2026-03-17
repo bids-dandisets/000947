@@ -1,0 +1,46 @@
+{
+    "onset": {
+        "Description": "Onset of the event, measured from the beginning of the acquisition.",
+        "Units": "s"
+    },
+    "duration": {
+        "Description": "Duration of the event (measured from onset).",
+        "Units": "s"
+    },
+    "reward_start_time": {
+        "Description": "The times of the reward onset."
+    },
+    "reward_stop_time": {
+        "Description": "The times of the reward offset."
+    },
+    "movement_start_time": {
+        "Description": "The times of the hand sensor at the home-position off (= onset of the movement)."
+    },
+    "movement_stop_time": {
+        "Description": "The times of the hand sensor at the reach target on (= end of the movement)."
+    },
+    "return_start_time": {
+        "Description": "The times of the hand sensor at the reach target off (= onset of the return movement)"
+    },
+    "return_stop_time": {
+        "Description": "The times of the hand sensor at the home-position on (= end of the return movement)"
+    },
+    "cue_onset_time": {
+        "Description": "The times of the target and go-cue instruction (reach target and go-cue were instructed simulatneously in this task)."
+    },
+    "target": {
+        "Description": "Defines whether the target was on the left or right side."
+    },
+    "nwb_table": {
+        "Description": "The name of the NWB table from which this event was extracted.",
+        "Levels": {
+            "trials": "The 'trials' table in the NWB file."
+        },
+        "HED": {
+            "trials": "Experimental-trial"
+        }
+    },
+    "trials": {
+        "Description": "experimental trials"
+    }
+}

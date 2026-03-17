@@ -1,0 +1,10 @@
+name	probe_name	x	y	z	hemisphere	impedance	shank_id	location
+e000	DeviceEcephys	n/a	n/a	n/a	n/a	n/a	Group M1-S	M1-S
+e001	DeviceEcephys	n/a	n/a	n/a	n/a	n/a	Group M1-S	M1-S
+e002	DeviceEcephys	n/a	n/a	n/a	n/a	n/a	Group M1-S	M1-S
+e003	DeviceEcephys	n/a	n/a	n/a	n/a	n/a	Group M1-S	M1-S
+e004	DeviceEcephys	n/a	n/a	n/a	n/a	n/a	Group M1-S	M1-S
+e005	DeviceEcephys	n/a	n/a	n/a	n/a	n/a	Group M1-G	M1-G
+e006	DeviceEcephys	n/a	n/a	n/a	n/a	n/a	Group M1-G	M1-G
+e007	DeviceEcephys	n/a	n/a	n/a	n/a	n/a	Group M1-G	M1-G
+e008	DeviceEcephys	n/a	n/a	n/a	n/a	n/a	Group M1-G	M1-G
