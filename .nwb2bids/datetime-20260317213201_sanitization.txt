@@ -1,1 +1,0 @@
-{"sanitization_config":{"sub_labels":false,"ses_labels":false},"sanitization_file_path":"/data/dandi/bids-dandisets/work/000947/.nwb2bids/datetime-20260317213201_sanitization.txt","original_participant_id":"Isis","original_session_id":"pre-MPTP-I-170623-5","sanitized_participant_id":"Isis","sanitized_session_id":"pre-MPTP-I-170623-5"}
