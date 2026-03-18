@@ -1,0 +1,11 @@
+{
+    "InstitutionName": "University of Pittsburgh",
+    "PowerLineFrequency": "n/a",
+    "Manufacturer": "Tucker-Davis Technologies (TDT)",
+    "SamplingFrequency": 24414.0625,
+    "RecordingDuration": 289.49086208,
+    "SoftwareFilters": "n/a",
+    "HardwareFilters": "n/a",
+    "BodyPart": "BRAIN",
+    "BodyPartDetails": "VLp"
+}
