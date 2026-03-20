@@ -1,3 +1,3 @@
-name	electrode_name	type	units
-Conx 1	e000	n/a	V
-Conx 30	e001	n/a	V
+name	electrode_name	type	units	sampling_frequency
+Conx 1	e000	n/a	V	-1.0
+Conx 30	e001	n/a	V	-1.0

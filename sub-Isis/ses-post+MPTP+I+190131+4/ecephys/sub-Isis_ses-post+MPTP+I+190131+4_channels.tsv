@@ -1,9 +1,9 @@
-name	electrode_name	type	units
-Conx 1	e000	n/a	V
-Conx 7	e001	n/a	V
-Conx 18	e002	n/a	V
-Conx 19	e003	n/a	V
-Conx 20	e004	n/a	V
-Conx 24	e005	n/a	V
-Conx 30	e006	n/a	V
-Conx 32	e007	n/a	V
+name	electrode_name	type	units	sampling_frequency
+Conx 1	e000	n/a	V	-1.0
+Conx 7	e001	n/a	V	-1.0
+Conx 18	e002	n/a	V	-1.0
+Conx 19	e003	n/a	V	-1.0
+Conx 20	e004	n/a	V	-1.0
+Conx 24	e005	n/a	V	-1.0
+Conx 30	e006	n/a	V	-1.0
+Conx 32	e007	n/a	V	-1.0
