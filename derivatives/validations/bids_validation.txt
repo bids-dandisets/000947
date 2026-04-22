@@ -1,0 +1,85 @@
+	[WARNING] JSON_KEY_RECOMMENDED A JSON file is missing a key listed as recommended.
+		SourceDatasets
+		/dataset_description.json - Field description: Used to specify the locations and relevant attributes of all source datasets (BIDS or not).
+Valid keys in each object include `"URL"`, `"DOI"` (see
+[URI](SPEC_ROOT/common-principles.md#uniform-resource-indicator)), and
+`"Version"` with
+[string](https://www.w3schools.com/js/js_json_datatypes.asp)
+values.
+
+
+	Please visit https://neurostars.org/search?q=JSON_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[WARNING] TSV_COLUMN_TYPE_REDEFINED A column required in a TSV file has been redefined in a sidecar file. This redefinition is being ignored.
+		sampling_frequency
+		/sub-Gaia/ses-post-MPTP-G-170208-3/ecephys/sub-Gaia_ses-post-MPTP-G-170208-3_channels.json - Format "string" must be number
+		/sub-Gaia/ses-post-MPTP-G-170310-2/ecephys/sub-Gaia_ses-post-MPTP-G-170310-2_channels.json - Format "string" must be number
+
+		376 more files with the same issue
+
+		x
+		/sub-Gaia/ses-post-MPTP-G-170208-3/ecephys/sub-Gaia_ses-post-MPTP-G-170208-3_electrodes.json - Format "string" must be number
+		/sub-Gaia/ses-post-MPTP-G-170310-2/ecephys/sub-Gaia_ses-post-MPTP-G-170310-2_electrodes.json - Format "string" must be number
+
+		376 more files with the same issue
+
+		y
+		/sub-Gaia/ses-post-MPTP-G-170208-3/ecephys/sub-Gaia_ses-post-MPTP-G-170208-3_electrodes.json - Format "string" must be number
+		/sub-Gaia/ses-post-MPTP-G-170310-2/ecephys/sub-Gaia_ses-post-MPTP-G-170310-2_electrodes.json - Format "string" must be number
+
+		376 more files with the same issue
+
+		impedance
+		/sub-Gaia/ses-post-MPTP-G-170208-3/ecephys/sub-Gaia_ses-post-MPTP-G-170208-3_electrodes.json - Format "string" must be number
+		/sub-Gaia/ses-post-MPTP-G-170310-2/ecephys/sub-Gaia_ses-post-MPTP-G-170310-2_electrodes.json - Format "string" must be number
+
+		376 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=TSV_COLUMN_TYPE_REDEFINED for existing conversations about this issue.
+
+	[WARNING] SIDECAR_KEY_RECOMMENDED A data file's JSON sidecar is missing a key listed as recommended.
+		RecordingType
+		/sub-Gaia/ses-post-MPTP-G-170208-3/ecephys/sub-Gaia_ses-post-MPTP-G-170208-3_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+		/sub-Gaia/ses-post-MPTP-G-170310-2/ecephys/sub-Gaia_ses-post-MPTP-G-170310-2_ecephys.nwb - Field description: Defines whether the recording is `"continuous"`, `"discontinuous"`, or
+`"epoched"`, where `"epoched"` is limited to time windows about events of
+interest (for example, stimulus presentations or subject responses).
+
+
+		376 more files with the same issue
+
+		StimulusPresentation
+		/sub-Gaia/ses-post-MPTP-G-170208-3/ecephys/sub-Gaia_ses-post-MPTP-G-170208-3_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+		/sub-Gaia/ses-post-MPTP-G-170310-2/ecephys/sub-Gaia_ses-post-MPTP-G-170310-2_events.tsv - Field description: Object containing key-value pairs related to the software used to present
+the stimuli during the experiment.
+
+
+		375 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=SIDECAR_KEY_RECOMMENDED for existing conversations about this issue.
+
+	[ERROR] TSV_VALUE_INCORRECT_TYPE A value in a column did not match the acceptable type for that column headers specified format.
+		session_id
+		/sub-Gaia/sub-Gaia_sessions.tsv - 'ses-post-MPTP-G-150303-1'
+		/sub-Isis/sub-Isis_sessions.tsv - 'ses-post-MPTP-I-181016-1'
+
+	Please visit https://neurostars.org/search?q=TSV_VALUE_INCORRECT_TYPE for existing conversations about this issue.
+
+	[ERROR] INVALID_ENTITY_LABEL entity label doesn't match format found for files with this suffix
+		/sub-Gaia/ses-post-MPTP-G-170208-3/ecephys/sub-Gaia_ses-post-MPTP-G-170208-3_electrodes.json - entity: ses label: post-MPTP-G-170208-3 pattern: [0-9a-zA-Z+]+
+		/sub-Gaia/ses-post-MPTP-G-170208-3/ecephys/sub-Gaia_ses-post-MPTP-G-170208-3_channels.tsv - entity: ses label: post-MPTP-G-170208-3 pattern: [0-9a-zA-Z+]+
+
+		3776 more files with the same issue
+
+	Please visit https://neurostars.org/search?q=INVALID_ENTITY_LABEL for existing conversations about this issue.
+
+
+          Summary:                           Available Tasks:        Available Modalities:
+          3785 Files, 9.06 MB                                        microephys           
+          2 - Subjects 378 - Sessions                                                     
+
+	If you have any questions, please post on https://neurostars.org/tags/bids.
